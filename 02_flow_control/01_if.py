@@ -70,3 +70,52 @@ elif tiene_dinero:
   print('Puedes ir a la disco')
 else:
   print('Quedate en casa')
+
+numero = 5
+if numero: #True
+  print('El numero no es cero')
+
+numero = 0
+if numero:
+  print('Aqui no entrara nunca')
+
+nombre = 'Juan'
+if nombre:
+  print('El nombre no es vacio')
+
+numero = 3 #asignacion
+es_el_tres = numero == 3 # comparacion
+if es_el_tres:
+  print('El numero es 3')
+
+print('\nLa condicion ternaria')
+# es una forma concisa de un if-else en un linea de codigo
+# [codigo si cumple la condicion] if [condicion]else[codigo si no cumple]
+edad = 17
+mensaje= 'Es mayor de edad' if edad>= 18 else 'Es menor de edad'
+print(mensaje)
+print( 'Es mayor de edad' if edad>= 18 else 'Es menor de edad')
+
+###
+# EJERCICIOS
+###
+
+# Ejercicio 1: Determinar el mayor de dos números
+# Pide al usuario que introduzca dos números y muestra un mensaje
+# indicando cuál es mayor o si son iguales
+
+# Ejercicio 2: Calculadora simple
+# Pide al usuario dos números y una operación (+, -, *, /)
+# Realiza la operación y muestra el resultado (maneja la división entre zero)
+
+# Ejercicio 3: Año bisiesto
+# Pide al usuario que introduzca un año y determina si es bisiesto.
+# Un año es bisiesto si es divisible por 4, excepto si es divisible por 100 pero no por 400.
+
+# Ejercicio 4: Categorizar edades
+# Pide al usuario que introduzca una edad y la clasifique en:
+# - Bebé (0-2 años)
+# - Niño (3-12 años)
+# - Adolescente (13-17 años)
+# - Adulto (18-64 años)
+# - Adulto mayor (65 años o más)
