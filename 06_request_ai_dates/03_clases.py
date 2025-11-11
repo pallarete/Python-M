@@ -68,7 +68,7 @@ class AI_API:
     # print(res_json['choices'][0]['message']['content'])
 
 print('\nOPEN_AI:')
-openai_api = AI_API(OPENAI_KEY, 'https://api.openai.com/v1/chat/completions','gpt-4o-mini')
+# openai_api = AI_API(OPENAI_KEY, 'https://api.openai.com/v1/chat/completions','gpt-4o-mini')
 
 openai_api.call('Escribe un breve poema sobre la programacion')
 
